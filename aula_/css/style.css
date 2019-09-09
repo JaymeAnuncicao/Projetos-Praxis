@@ -1,0 +1,86 @@
+/* .quadrado{
+    width: 25vw;
+    height: 30vh;
+}
+#mae{
+    width: 70vw;
+    height: 50vh;
+    background-color: black;
+    padding: 0px 10px;
+}
+#q1{
+    background-color: red;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+#q2{
+    background-color: green;
+    position: relative;
+    top: -26vh;
+    left: 25vw;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/gato-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home{
+    /* background-image: url('../img/gato-bg.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+#bg-black{
+    background-color: rgba(0,0,0,0.5); 
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    height: 100%;
+}
+.caixatxt{
+    width: 50vw;
+    height: 30vh;
+    text-align: justify;
+    position: relative;
+    left: 25vw;
+    top: 20vh;
+}
+.texto{
+    font-size: 1.5rem;
+    color: white;
+}
+form{
+    text-align: end;
+}
+.form-def{
+    width: 25vw;
+    height: 5vh;
+    padding: 0px 5px;
+    border: solid 2px lightblue;
+    border-radius: 5px;
+}
+#textarea{
+    resize: none;
+    height: 15vh;
+}
+#submit{
+    height: 5vh;
+    width: 10vw;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+#submit:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+iframe{
+    position: relative;
+    bottom: 250px;
+}
